@@ -318,4 +318,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   outline-offset: 2px;
 }
 
-
+*::-webkit-scrollbar{
+  width: 0px;
+}
