@@ -19,10 +19,6 @@ html {
 }
 
 
-  input{
-    padding:0
-  }
-
 h1,
 h2,
 h3,
@@ -73,8 +69,8 @@ ol {
 .content__list{
   overflow-y: scroll;
   position: relative;
-  max-width: 399px;
-  max-height: 298px;
+  width: 399px;
+  height: 298px;
 }
 
 .result__video-container{
@@ -93,7 +89,6 @@ ol {
 
 .content__list-item{
   max-width: 399px;
-  margin-bottom: 30px;
 }
 
 .content__list li:not(:last-child) {
@@ -228,8 +223,6 @@ input[type='checkbox']{
   width: 399px;
   height: 34px;
   border: 1px solid rgba(255, 255, 255, 1);
-  gap: 10px
-
 }
 
 .search-form__submit-button{
